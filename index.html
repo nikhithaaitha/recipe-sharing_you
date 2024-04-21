@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Sharing Platform</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    header {
+      background-color: #3f51b5;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: right;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #ff6f61;
+      color: #fff;
+    }
+    .recipes {
+      padding: 20px;
+    }
+    .recipe {
+      margin: 20px 0;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .recipe img {
+      max-width: 100%;
+    }
+    footer {
+      background-color: #3f51b5;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .contact {
+      padding: 50px 20px;
+      background-color: #f7f7f7;
+    }
+    form div {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #ff6f61;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Welcome to the Recipe Sharing Platform</h1>
+      <p>Discover and share delicious recipes from around the world!</p>
+      <button>Get Started</button>
+    </section>
+    <section class="recipes">
+      <h2>Popular Recipes</h2>
+      <div class="recipe">
+        <img src="recipe1.jpg" alt="Recipe 1">
+        <h3>Spaghetti Carbonara</h3>
+        <p>A classic Italian pasta dish with creamy sauce, eggs, cheese, and crispy pancetta.</p>
+      </div>
+      <div class="recipe">
+        <img src="recipe2.jpg" alt="Recipe 2">
+        <h3>Chicken Tikka Masala</h3>
+        <p>A popular Indian dish consisting of marinated and grilled chicken in a rich, creamy tomato sauce.</p>
+      </div>
+      <!-- More recipe entries go here -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Recipe Sharing Platform</p>
+  </footer>
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  <script>
+    // JavaScript code will go here
+  </script>
+</body>
+</html>
